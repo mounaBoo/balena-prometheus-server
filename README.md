@@ -12,7 +12,7 @@ More info can be found on the [resin-blog](https://resin.io/blog/prometheusv2/)
 
 ### To run
 
-1. ```git clone git@github.com:resin-io-projects/resin-prometheus-server.git```
+1. ```https://github.com/mounaBoo/balena-prometheus-server.git```
 2. Add required environment variables in `Dockerfile` or at runtime. 
 3. Optional: If you'd like persistent grafana storage run: `docker run -d -v /var/lib/grafana --name grafana-storage busybox:latest`
 3. ```docker build -t prometheus .```
