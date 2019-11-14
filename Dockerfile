@@ -1,4 +1,4 @@
-FROM balenalib/nuc-node:0.10.22-wheezy
+FROM resin/nuc-node:0.10.22-wheezy
 
 # Enable systemd
 ENV INITSYSTEM on
